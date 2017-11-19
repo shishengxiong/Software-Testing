@@ -43,11 +43,11 @@ public class Recipe {
         return "";
     }
 
-    public void add_ingredient () {
+    public void add_ingredient (Ingredient new_ingredient) {
 
     }
 
-    public void remove_ingredient () {
+    public void remove_ingredient (String ingredient_name) {
 
     }
 

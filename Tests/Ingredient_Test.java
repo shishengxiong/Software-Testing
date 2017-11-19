@@ -1,7 +1,17 @@
 import static org.junit.Assert.*;
+
+import junit.framework.TestCase;
 import org.junit.Test;
 
-public class Ingredient_Test {
+public class Ingredient_Test extends TestCase {
+
+    protected void setUp() throws Exception {
+        super.setUp();
+    }
+
+    protected void tearDown() throws Exception {
+        super.tearDown();
+    }
 
     @org.junit.Test
     public void test_1() {
