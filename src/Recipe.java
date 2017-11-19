@@ -43,8 +43,20 @@ public class Recipe {
         return "";
     }
 
-    public void print_ingredients (){
+    public void add_ingredient () {
 
+    }
+
+    public void remove_ingredient () {
+
+    }
+
+    public String print_ingredients (){
+        return "";
+    }
+
+    public String print_recipe (){
+        return "";
     }
 
 }

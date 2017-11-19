@@ -1,3 +1,4 @@
+import org.junit.Assert;
 import org.junit.Test;
 
 import static org.junit.Assert.assertEquals;
@@ -75,6 +76,99 @@ public class Chef_Test {
         test.set_starts(5);
         assertEquals(test.get_stars(), 5);
     }
+
+    @Test
+    public void test_12() {
+        Chef test = new Chef("John Wattson", Country.UNITED_STATES, "American born specialized on South Chinese dishes", "Chinese Cuisine", 3);
+
+        //mock recipe here
+
+        test.add_recipe("recipe");
+        assertNotNull(test.fetch_recipe("recipe title"));
+    }
+
+    @Test
+    public void test_13() {
+        Chef test = new Chef("John Wattson", Country.UNITED_STATES, "American born specialized on South Chinese dishes", "Chinese Cuisine", 3);
+
+        //mock recipe here
+
+        test.add_recipe("recipe");
+        assertEquals(test.fetch_recipe("recipe title"), "recipe");
+    }
+
+    @Test
+    public void test_14() {
+        Chef test = new Chef("John Wattson", Country.UNITED_STATES, "American born specialized on South Chinese dishes", "Chinese Cuisine", 3);
+        //mock recipe here
+        test.add_recipe("recipe");
+        test.remove_recipe("recipe title");
+        Assert.assertNull(test.fetch_recipe("recipe title"));
+    }
+
+    @Test
+    public void test_15() {
+        Chef test = new Chef("John Wattson", Country.UNITED_STATES, "American born specialized on South Chinese dishes", "Chinese Cuisine", 3);
+
+        //mock recipe here
+        //mock recipe here
+        //mock recipe here
+
+        test.add_recipe("recipe1");
+        test.add_recipe("recipe2");
+        test.add_recipe("recipe3");
+
+        assertEquals(test.getNumber_recipes(), 3);
+    }
+
+    @Test
+    public void test_16() {
+        Chef test = new Chef("John Wattson", Country.UNITED_STATES, "American born specialized on South Chinese dishes", "Chinese Cuisine", 3);
+
+        //mock recipe here
+        //mock recipe here
+        //mock recipe here
+
+        test.add_recipe("recipe1");
+        test.add_recipe("recipe2");
+        test.add_recipe("recipe3");
+
+        assertEquals(test.indexBook(), "- Chinese Dumplings\t- Beijing Fried Duck\t- Korean BBQ");
+    }
+
+    @Test
+    public void test_17() {
+        Chef test = new Chef("John Wattson", Country.UNITED_STATES, "American born specialized on South Chinese dishes", "Chinese Cuisine", 3);
+
+        //mock recipe here
+        //mock recipe here
+        //mock recipe here
+
+        test.add_recipe("recipe1");
+        test.add_recipe("recipe2");
+        test.add_recipe("recipe3");
+
+        assertEquals(test.indexBook(), "- Chinese Dumplings\t- Beijing Fried Duck\t- Korean BBQ");
+    }
+
+    @Test
+    public void test_18() {
+        Chef test = new Chef("John Wattson", Country.UNITED_STATES, "American born specialized on South Chinese dishes", "Chinese Cuisine", 3);
+
+        //mock recipe here
+        //mock recipe here
+        //mock recipe here
+
+        test.add_recipe("recipe1");
+        test.add_recipe("recipe2");
+        test.add_recipe("recipe3");
+
+        assertEquals(test.indexBook(), "Title: Chinese Dumplings \tDescription: Traditional Recipe \tCooking Time: 20 min \t\tINGREDIENTS:\t- Chinese Baby Carrots\t- Spinach\t- Noodles \t\tPREPARATION:\t1- Place dumplings on bamboo steamer\t\t" +
+                "Title: Chinese Dumplings \tDescription: Traditional Recipe \tCooking Time: 20 min \t\tINGREDIENTS:\t- Chinese Baby Carrots\t- Spinach\t- Noodles \t\tPREPARATION:\t1- Place dumplings on bamboo steamer\t\t" +
+                "Title: Chinese Dumplings \tDescription: Traditional Recipe \tCooking Time: 20 min \t\tINGREDIENTS:\t- Chinese Baby Carrots\t- Spinach\t- Noodles \t\tPREPARATION:\t1- Place dumplings on bamboo steamer\t\t");
+    }
+
+
 
 
 }

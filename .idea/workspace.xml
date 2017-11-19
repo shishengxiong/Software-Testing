@@ -25,8 +25,8 @@
       <file leaf-file-name="Ingredient.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/Ingredient.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1020">
-              <caret line="34" column="0" lean-forward="true" selection-start-line="34" selection-start-column="0" selection-end-line="34" selection-end-column="0" />
+            <state relative-caret-position="-482">
+              <caret line="0" column="13" lean-forward="false" selection-start-line="0" selection-start-column="13" selection-end-line="0" selection-end-column="13" />
               <folding>
                 <element signature="e#262#263#0" expanded="true" />
                 <element signature="e#287#288#0" expanded="true" />
@@ -42,8 +42,8 @@
       <file leaf-file-name="Recipe.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/Recipe.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="478">
-              <caret line="47" column="5" lean-forward="true" selection-start-line="47" selection-start-column="5" selection-end-line="47" selection-end-column="5" />
+            <state relative-caret-position="-1172">
+              <caret line="4" column="23" lean-forward="true" selection-start-line="4" selection-start-column="23" selection-end-line="4" selection-end-column="23" />
               <folding>
                 <element signature="e#373#374#0" expanded="true" />
                 <element signature="e#398#399#0" expanded="true" />
@@ -53,27 +53,39 @@
                 <element signature="e#638#639#0" expanded="true" />
                 <element signature="e#746#747#0" expanded="true" />
                 <element signature="e#771#772#0" expanded="true" />
+                <element signature="e#903#904#0" expanded="true" />
+                <element signature="e#928#929#0" expanded="true" />
+                <element signature="e#964#965#0" expanded="true" />
+                <element signature="e#989#990#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Chef.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="Chef.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/Chef.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="240">
-              <caret line="8" column="35" lean-forward="true" selection-start-line="8" selection-start-column="35" selection-end-line="8" selection-end-column="35" />
+            <state relative-caret-position="2130">
+              <caret line="71" column="18" lean-forward="true" selection-start-line="71" selection-start-column="18" selection-end-line="71" selection-end-column="18" />
               <folding>
-                <element signature="e#383#384#0" expanded="true" />
-                <element signature="e#408#409#0" expanded="true" />
-                <element signature="e#496#497#0" expanded="true" />
-                <element signature="e#521#522#0" expanded="true" />
-                <element signature="e#625#626#0" expanded="true" />
-                <element signature="e#650#651#0" expanded="true" />
-                <element signature="e#753#754#0" expanded="true" />
-                <element signature="e#778#779#0" expanded="true" />
-                <element signature="e#870#871#0" expanded="true" />
-                <element signature="e#894#895#0" expanded="true" />
+                <element signature="e#414#415#0" expanded="true" />
+                <element signature="e#439#440#0" expanded="true" />
+                <element signature="e#527#528#0" expanded="true" />
+                <element signature="e#552#553#0" expanded="true" />
+                <element signature="e#656#657#0" expanded="true" />
+                <element signature="e#681#682#0" expanded="true" />
+                <element signature="e#784#785#0" expanded="true" />
+                <element signature="e#809#810#0" expanded="true" />
+                <element signature="e#901#902#0" expanded="true" />
+                <element signature="e#925#926#0" expanded="true" />
+                <element signature="e#1133#1134#0" expanded="true" />
+                <element signature="e#1164#1165#0" expanded="true" />
+                <element signature="e#1201#1202#0" expanded="true" />
+                <element signature="e#1225#1226#0" expanded="true" />
+                <element signature="e#1258#1259#0" expanded="true" />
+                <element signature="e#1283#1284#0" expanded="true" />
+                <element signature="e#1315#1316#0" expanded="true" />
+                <element signature="e#1340#1341#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -82,8 +94,8 @@
       <file leaf-file-name="Country.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/Country.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="60">
-              <caret line="2" column="1" lean-forward="true" selection-start-line="2" selection-start-column="1" selection-end-line="2" selection-end-column="1" />
+            <state relative-caret-position="30">
+              <caret line="1" column="100" lean-forward="false" selection-start-line="1" selection-start-column="100" selection-end-line="1" selection-end-column="100" />
               <folding />
             </state>
           </provider>
@@ -92,8 +104,8 @@
       <file leaf-file-name="Chef_Test.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Tests/Chef_Test.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="538">
-              <caret line="77" column="0" lean-forward="true" selection-start-line="77" selection-start-column="0" selection-end-line="77" selection-end-column="0" />
+            <state relative-caret-position="1138">
+              <caret line="167" column="220" lean-forward="false" selection-start-line="167" selection-start-column="220" selection-end-line="167" selection-end-column="220" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -123,11 +135,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Recipe_Test.java" pinned="false" current-in-tab="false">
+      <file leaf-file-name="Recipe_Test.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Tests/Recipe_Test.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="2070">
-              <caret line="69" column="0" lean-forward="true" selection-start-line="69" selection-start-column="0" selection-end-line="69" selection-end-column="0" />
+            <state relative-caret-position="538">
+              <caret line="105" column="0" lean-forward="true" selection-start-line="105" selection-start-column="0" selection-end-line="105" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -180,12 +192,13 @@
         <option value="$PROJECT_DIR$/src/Type.java" />
         <option value="$PROJECT_DIR$/src/Main.java" />
         <option value="$PROJECT_DIR$/src/Ingredient.java" />
-        <option value="$PROJECT_DIR$/Tests/Recipe_Test.java" />
         <option value="$PROJECT_DIR$/Tests/Ingredient_Test.java" />
+        <option value="$PROJECT_DIR$/src/Classification.java" />
         <option value="$PROJECT_DIR$/src/Recipe.java" />
         <option value="$PROJECT_DIR$/src/Country.java" />
         <option value="$PROJECT_DIR$/src/Chef.java" />
         <option value="$PROJECT_DIR$/Tests/Chef_Test.java" />
+        <option value="$PROJECT_DIR$/Tests/Recipe_Test.java" />
       </list>
     </option>
   </component>
@@ -418,7 +431,7 @@
       <option name="presentableId" value="Default" />
       <updated>1510947716177</updated>
       <workItem from="1510947794159" duration="3883000" />
-      <workItem from="1511039917857" duration="13298000" />
+      <workItem from="1511039917857" duration="17774000" />
     </task>
     <servers />
   </component>
@@ -443,7 +456,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="17181000" />
+    <option name="totallyTimeSpent" value="21657000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-9" y="-9" width="1938" height="1098" extended-state="6" />
@@ -485,7 +498,16 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="XDebuggerManager">
-    <breakpoint-manager />
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/Tests/Recipe_Test.java</url>
+          <line>104</line>
+          <properties />
+        </line-breakpoint>
+      </breakpoints>
+      <option name="time" value="1" />
+    </breakpoint-manager>
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
@@ -533,6 +555,10 @@
             <element signature="e#638#639#0" expanded="true" />
             <element signature="e#746#747#0" expanded="true" />
             <element signature="e#771#772#0" expanded="true" />
+            <element signature="e#903#904#0" expanded="true" />
+            <element signature="e#928#929#0" expanded="true" />
+            <element signature="e#964#965#0" expanded="true" />
+            <element signature="e#989#990#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -554,28 +580,18 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Recipe.java">
+    <entry file="file://$PROJECT_DIR$/src/Ingredient.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="478">
-          <caret line="47" column="5" lean-forward="true" selection-start-line="47" selection-start-column="5" selection-end-line="47" selection-end-column="5" />
+        <state relative-caret-position="-482">
+          <caret line="0" column="13" lean-forward="false" selection-start-line="0" selection-start-column="13" selection-end-line="0" selection-end-column="13" />
           <folding>
-            <element signature="e#373#374#0" expanded="true" />
-            <element signature="e#398#399#0" expanded="true" />
-            <element signature="e#503#504#0" expanded="true" />
-            <element signature="e#528#529#0" expanded="true" />
-            <element signature="e#612#613#0" expanded="true" />
-            <element signature="e#638#639#0" expanded="true" />
-            <element signature="e#746#747#0" expanded="true" />
-            <element signature="e#771#772#0" expanded="true" />
+            <element signature="e#262#263#0" expanded="true" />
+            <element signature="e#287#288#0" expanded="true" />
+            <element signature="e#378#379#0" expanded="true" />
+            <element signature="e#403#404#0" expanded="true" />
+            <element signature="e#519#520#0" expanded="true" />
+            <element signature="e#562#563#0" expanded="true" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Country.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="2" column="1" lean-forward="true" selection-start-line="2" selection-start-column="1" selection-end-line="2" selection-end-column="1" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -589,35 +605,31 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Tests/Recipe_Test.java">
+    <entry file="file://$PROJECT_DIR$/src/Country.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2070">
-          <caret line="69" column="0" lean-forward="true" selection-start-line="69" selection-start-column="0" selection-end-line="69" selection-end-column="0" />
+        <state relative-caret-position="30">
+          <caret line="1" column="100" lean-forward="false" selection-start-line="1" selection-start-column="100" selection-end-line="1" selection-end-column="100" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Tests/Chef_Test.java">
+    <entry file="file://$PROJECT_DIR$/src/Recipe.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="538">
-          <caret line="77" column="0" lean-forward="true" selection-start-line="77" selection-start-column="0" selection-end-line="77" selection-end-column="0" />
+        <state relative-caret-position="-1172">
+          <caret line="4" column="23" lean-forward="true" selection-start-line="4" selection-start-column="23" selection-end-line="4" selection-end-column="23" />
           <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Ingredient.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1020">
-          <caret line="34" column="0" lean-forward="true" selection-start-line="34" selection-start-column="0" selection-end-line="34" selection-end-column="0" />
-          <folding>
-            <element signature="e#262#263#0" expanded="true" />
-            <element signature="e#287#288#0" expanded="true" />
-            <element signature="e#378#379#0" expanded="true" />
-            <element signature="e#403#404#0" expanded="true" />
-            <element signature="e#519#520#0" expanded="true" />
-            <element signature="e#562#563#0" expanded="true" />
+            <element signature="e#373#374#0" expanded="true" />
+            <element signature="e#398#399#0" expanded="true" />
+            <element signature="e#503#504#0" expanded="true" />
+            <element signature="e#528#529#0" expanded="true" />
+            <element signature="e#612#613#0" expanded="true" />
+            <element signature="e#638#639#0" expanded="true" />
+            <element signature="e#746#747#0" expanded="true" />
+            <element signature="e#771#772#0" expanded="true" />
+            <element signature="e#903#904#0" expanded="true" />
+            <element signature="e#928#929#0" expanded="true" />
+            <element signature="e#964#965#0" expanded="true" />
+            <element signature="e#989#990#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -632,20 +644,46 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/Chef.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="240">
-          <caret line="8" column="35" lean-forward="true" selection-start-line="8" selection-start-column="35" selection-end-line="8" selection-end-column="35" />
+        <state relative-caret-position="2130">
+          <caret line="71" column="18" lean-forward="true" selection-start-line="71" selection-start-column="18" selection-end-line="71" selection-end-column="18" />
           <folding>
-            <element signature="e#383#384#0" expanded="true" />
-            <element signature="e#408#409#0" expanded="true" />
-            <element signature="e#496#497#0" expanded="true" />
-            <element signature="e#521#522#0" expanded="true" />
-            <element signature="e#625#626#0" expanded="true" />
-            <element signature="e#650#651#0" expanded="true" />
-            <element signature="e#753#754#0" expanded="true" />
-            <element signature="e#778#779#0" expanded="true" />
-            <element signature="e#870#871#0" expanded="true" />
-            <element signature="e#894#895#0" expanded="true" />
+            <element signature="e#414#415#0" expanded="true" />
+            <element signature="e#439#440#0" expanded="true" />
+            <element signature="e#527#528#0" expanded="true" />
+            <element signature="e#552#553#0" expanded="true" />
+            <element signature="e#656#657#0" expanded="true" />
+            <element signature="e#681#682#0" expanded="true" />
+            <element signature="e#784#785#0" expanded="true" />
+            <element signature="e#809#810#0" expanded="true" />
+            <element signature="e#901#902#0" expanded="true" />
+            <element signature="e#925#926#0" expanded="true" />
+            <element signature="e#1133#1134#0" expanded="true" />
+            <element signature="e#1164#1165#0" expanded="true" />
+            <element signature="e#1201#1202#0" expanded="true" />
+            <element signature="e#1225#1226#0" expanded="true" />
+            <element signature="e#1258#1259#0" expanded="true" />
+            <element signature="e#1283#1284#0" expanded="true" />
+            <element signature="e#1315#1316#0" expanded="true" />
+            <element signature="e#1340#1341#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Tests/Chef_Test.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1138">
+          <caret line="167" column="220" lean-forward="false" selection-start-line="167" selection-start-column="220" selection-end-line="167" selection-end-column="220" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Tests/Recipe_Test.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="538">
+          <caret line="105" column="0" lean-forward="true" selection-start-line="105" selection-start-column="0" selection-end-line="105" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
     </entry>

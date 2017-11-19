@@ -68,4 +68,38 @@ public class Recipe_Test {
         assertEquals(test.get_instructions(), "1- Place dumplings on boiling water");
     }
 
+    @org.junit.Test
+    public void test_10() {
+        Recipe test = new Recipe ("Chinese Dumplings", "Traditional Recipe",0.20,"1- Place dumplings on bamboo steamer");
+
+        //mock ingredient here
+
+        test.add_ingredient();
+
+        assertEquals(test.print_ingredients(), "");
+    }
+
+    @org.junit.Test
+    public void test_11() {
+        Recipe test = new Recipe ("Chinese Dumplings", "Traditional Recipe",0.20,"1- Place dumplings on bamboo steamer");
+
+        //mock ingredient here
+
+        test.add_ingredient();
+        test.remove_ingredient();
+
+        assertEquals(test.print_ingredients(), "This recipe has no ingredients yet.");
+    }
+
+    @org.junit.Test
+    public void test_12() {
+        Recipe test = new Recipe ("Chinese Dumplings", "Traditional Recipe",0.20,"1- Place dumplings on bamboo steamer");
+
+        //mock ingredient here
+        test.add_ingredient();
+        test.remove_ingredient();
+
+        assertEquals(test.print_recipe(), "Title: Chinese Dumplings \tDescription: Traditional Recipe \tCooking Time: 20 min \t\tINGREDIENTS:\t- Chinese Baby Carrots\t- Spinach\t- Noodles \t\tPREPARATION:\t1- Place dumplings on bamboo steamer\t\t");
+    }
+
 }
