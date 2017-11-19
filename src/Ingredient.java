@@ -34,6 +34,6 @@ public class Ingredient {
     }
 
     public String print_full(){
-        return "";
+        return this.get_name() +": " + this.get_description();
     }
 }
