@@ -16,7 +16,7 @@ public class Ingredient_Test extends TestCase {
     @org.junit.Test
     public void test_1() {
         Ingredient test = new Ingredient("Chinese Carrots","Traditional root from ZhenSheng", Classification.VEGETABLE);
-        assertNotNull(null);
+        assertNotNull(test);
     }
 
     @org.junit.Test

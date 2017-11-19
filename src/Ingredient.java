@@ -5,30 +5,31 @@ public class Ingredient {
     public Classification classification;
 
     public Ingredient (String new_name, String new_description, Classification new_classification){
-
+        this.name = new_name;
+        this.description = new_description;
+        this.classification = new_classification;
     }
 
     public String get_name (){
-        return "";
+        return name;
     }
 
     public void set_name (String new_name){
-
+        this.name = new_name;
     }
-
     public String get_description (){
-        return "";
+        return description;
     }
 
     public void set_description (String new_description){
-
+        this.description = new_description;
     }
 
     public Classification get_classification (){
-        return get_classification();
+        return classification;
     }
 
     public void set_classification (Classification new_classification){
-
+        this.classification = new_classification;
     }
 }
