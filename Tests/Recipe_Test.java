@@ -22,25 +22,25 @@ public class Recipe_Test extends TestCase {
     @org.junit.Test
     public void test_2() {
         Recipe test = new Recipe ("Chinese Dumplings", "Traditional Recipe",0.20,"1- Place dumplings on bamboo steamer");
-        assertEquals(test.get_title(), "Chinese Dumplings");
+        assertEquals("Chinese Dumplings", test.get_title());
     }
 
     @org.junit.Test
     public void test_3() {
         Recipe test = new Recipe ("Chinese Dumplings", "Traditional Recipe",0.20,"1- Place dumplings on bamboo steamer");
-        assertEquals(test.get_description(), "Traditional Recipe");
+        assertEquals("Traditional Recipe",test.get_description());
     }
 
     @org.junit.Test
     public void test_4() {
         Recipe test = new Recipe ("Chinese Dumplings", "Traditional Recipe",0.20,"1- Place dumplings on bamboo steamer");
-        assertEquals(test.get_time(),0.20);
+        assertEquals(0.20,test.get_time());
     }
 
     @org.junit.Test
     public void test_5() {
         Recipe test = new Recipe ("Chinese Dumplings", "Traditional Recipe",0.20,"1- Place dumplings on bamboo steamer");
-        assertEquals(test.get_instructions(), "1- Place dumplings on bamboo steamer");
+        assertEquals("1- Place dumplings on bamboo steamer",test.get_instructions());
     }
 
     @org.junit.Test
@@ -49,7 +49,7 @@ public class Recipe_Test extends TestCase {
 
         test.set_title("Korean Dumplings");
 
-        assertEquals(test.get_title(), "Korean Dumplings");
+        assertEquals("Korean Dumplings", test.get_title());
     }
 
     @org.junit.Test
@@ -58,7 +58,7 @@ public class Recipe_Test extends TestCase {
 
         test.set_description("Traditional Korean Dumplings recipe");
 
-        assertEquals(test.get_description(), "Traditional Korean Dumplings recipe");
+        assertEquals("Traditional Korean Dumplings recipe", test.get_description());
     }
 
     @org.junit.Test
@@ -67,7 +67,7 @@ public class Recipe_Test extends TestCase {
 
         test.set_time(0.45);
 
-        assertEquals(test.get_time(),0.45);
+        assertEquals(0.45, test.get_time());
     }
 
     @org.junit.Test
@@ -76,7 +76,7 @@ public class Recipe_Test extends TestCase {
 
         test.set_instructions("1- Place dumplings on boiling water");
 
-        assertEquals(test.get_instructions(), "1- Place dumplings on boiling water");
+        assertEquals("1- Place dumplings on boiling water", test.get_instructions());
     }
 
     @org.junit.Test
@@ -89,7 +89,7 @@ public class Recipe_Test extends TestCase {
 
         test.add_ingredient(ingredient_1);
 
-        assertEquals(test.print_ingredients(), "");
+        assertEquals("- Chinese Baby Carrots",test.print_ingredients());
     }
 
     @org.junit.Test
@@ -103,7 +103,7 @@ public class Recipe_Test extends TestCase {
         test.add_ingredient(ingredient_1);
         test.remove_ingredient("Chinese Baby Carrots");
 
-        assertEquals(test.print_ingredients(), "This recipe has no ingredients yet.");
+        assertEquals("This recipe has no ingredients yet.", test.print_ingredients());
     }
 
     @org.junit.Test
@@ -127,7 +127,7 @@ public class Recipe_Test extends TestCase {
         test.add_ingredient(ingredient_4);
 
 
-        assertEquals(test.print_recipe(), "Title: Chinese Dumplings \tDescription: Traditional Recipe \tCooking Time: 20 min \t\tINGREDIENTS:\t- Chinese Baby Carrots\t- Spinach\t- Noodles\t- White Sauce\t\tPREPARATION:\t1- Place dumplings on bamboo steamer\t\t");
+        assertEquals("Title: Chinese Dumplings \tDescription: Traditional Recipe \tCooking Time: 20 min \t\tINGREDIENTS:\t- Chinese Baby Carrots\t- Spinach\t- Noodles\t- White Sauce\t\tPREPARATION:\t1- Place dumplings on bamboo steamer\t\t", test.print_recipe());
     }
 
 }

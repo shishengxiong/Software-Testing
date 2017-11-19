@@ -61,10 +61,19 @@ public class Recipe {
     }
 
     public String print_ingredients (){
-        for (int i = 0; i < ingredients.size(); i++){
-            ingredients.get(i).get_name();
+        String message = "";
+
+        if (ingredients.size() > 0){
+
+            for (int i = 0; i < ingredients.size(); i++){
+                message = "- " + ingredients.get(i).get_name();
+            }
+
+        } else {
+            message = "This recipe has no ingredients yet.";
         }
-        return "";
+
+        return message;
     }
 
     public String print_recipe (){

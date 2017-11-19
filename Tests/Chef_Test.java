@@ -3,7 +3,6 @@ import org.junit.Assert;
 import org.junit.Test;
 import static org.mockito.Mockito.mock;
 import static org.mockito.Mockito.verify;
-
 import static org.junit.Assert.assertEquals;
 import static org.junit.Assert.assertNotNull;
 
@@ -26,66 +25,66 @@ public class Chef_Test extends TestCase {
     @Test
     public void test_2() {
         Chef test = new Chef("John Wattson", Country.UNITED_STATES, "American born specialized on South Chinese dishes", "Chinese Cuisine", 3);
-        assertEquals(test.get_name(), "John Wattson");
+        assertEquals("John Wattson", test.get_name());
     }
 
     @Test
     public void test_3() {
         Chef test = new Chef("John Wattson", Country.UNITED_STATES, "American born specialized on South Chinese dishes", "Chinese Cuisine", 3);
-        assertEquals(test.get_nationality(), Country.UNITED_STATES);
+        assertEquals(Country.UNITED_STATES, test.get_nationality());
     }
 
     @Test
     public void test_4() {
         Chef test = new Chef("John Wattson", Country.UNITED_STATES, "American born specialized on South Chinese dishes", "Chinese Cuisine", 3);
-        assertEquals(test.get_description(), "American born specialized on South Chinese dishes");
+        assertEquals("American born specialized on South Chinese dishes", test.get_description());
     }
 
     @Test
     public void test_5() {
         Chef test = new Chef("John Wattson", Country.UNITED_STATES, "American born specialized on South Chinese dishes", "Chinese Cuisine", 3);
-        assertEquals(test.get_specialty(), "American born specialized on South Chinese dishes");
+        assertEquals("American born specialized on South Chinese dishes", test.get_specialty());
     }
 
     @Test
     public void test_6() {
         Chef test = new Chef("John Wattson", Country.UNITED_STATES, "American born specialized on South Chinese dishes", "Chinese Cuisine", 3);
-        assertEquals(test.get_stars(), 3);
+        assertEquals(3,test.get_stars());
     }
 
     @Test
     public void test_7() {
         Chef test = new Chef("John Wattson", Country.UNITED_STATES, "American born specialized on South Chinese dishes", "Chinese Cuisine", 3);
         test.set_name("Albin Defonse");
-        assertEquals(test.get_name(), "Albin Defonse");
+        assertEquals("Albin Defonse", test.get_name());
     }
 
     @Test
     public void test_8() {
         Chef test = new Chef("John Wattson", Country.UNITED_STATES, "American born specialized on South Chinese dishes", "Chinese Cuisine", 3);
         test.set_nationality(Country.FRANCE);
-        assertEquals(test.get_nationality(), Country.FRANCE);
+        assertEquals(Country.FRANCE, test.get_nationality());
     }
 
     @Test
     public void test_9() {
         Chef test = new Chef("John Wattson", Country.UNITED_STATES, "American born specialized on South Chinese dishes", "Chinese Cuisine", 3);
         test.set_description("Paris Chef with 15 years of experience");
-        assertEquals(test.get_description(), "Paris Chef with 15 years of experience");
+        assertEquals("Paris Chef with 15 years of experience", test.get_description());
     }
 
     @Test
     public void test_10() {
         Chef test = new Chef("John Wattson", Country.UNITED_STATES, "American born specialized on South Chinese dishes", "Chinese Cuisine", 3);
         test.set_specialty("French Cuisine");
-        assertEquals(test.get_specialty(), "French Cuisine");
+        assertEquals("French Cuisine", test.get_specialty());
     }
 
     @Test
     public void test_11() {
         Chef test = new Chef("John Wattson", Country.UNITED_STATES, "American born specialized on South Chinese dishes", "Chinese Cuisine", 3);
         test.set_starts(5);
-        assertEquals(test.get_stars(), 5);
+        assertEquals(5,test.get_stars());
     }
 
     @Test
@@ -109,7 +108,7 @@ public class Chef_Test extends TestCase {
         recipe_1.set_title("Chinese Dumplings");
 
         test.add_recipe(recipe_1);
-        assertEquals(test.fetch_recipe("Chinese Dumplings").get_title(), "Chinese Dumplings");
+        assertEquals("Chinese Dumplings",test.fetch_recipe("Chinese Dumplings").get_title());
     }
 
     @Test
@@ -138,7 +137,7 @@ public class Chef_Test extends TestCase {
         test.add_recipe(recipe_2);
         test.add_recipe(recipe_3);
 
-        assertEquals(test.getNumber_recipes(), 3);
+        assertEquals(3,test.getNumber_recipes());
     }
 
     @Test
@@ -157,7 +156,7 @@ public class Chef_Test extends TestCase {
         test.add_recipe(recipe_2);
         test.add_recipe(recipe_3);
 
-        assertEquals(test.indexBook(), "- Chinese Dumplings\t- Beijing Fried Duck\t- Korean BBQ");
+        assertEquals("- Chinese Dumplings\t- Beijing Fried Duck\t- Korean BBQ",test.indexBook());
     }
 
 
@@ -200,11 +199,9 @@ public class Chef_Test extends TestCase {
         test.add_recipe(recipe_1);
         test.add_recipe(recipe_2);
 
-        assertEquals(test.indexBook(), "Title: Chinese Dumplings \tDescription: Traditional Recipe \tCooking Time: 20 min \t\tINGREDIENTS:\t- Chinese Baby Carrots\t- Spinach\t- Noodles \t- White Sauce \t\tPREPARATION:\t1- Place dumplings on bamboo steamer\t\t" +
-                "Title: Beijing Fried Duck \tDescription: Recipe 2 \tCooking Time: 60 min \t\tINGREDIENTS:\t- Duck Fillet \t\tPREPARATION:\t1 - Place duck fillet on frying machine\t\t");
+        assertEquals("Title: Chinese Dumplings \tDescription: Traditional Recipe \tCooking Time: 20 min \t\tINGREDIENTS:\t- Chinese Baby Carrots\t- Spinach\t- Noodles \t- White Sauce \t\tPREPARATION:\t1- Place dumplings on bamboo steamer\t\t" +
+                "Title: Beijing Fried Duck \tDescription: Recipe 2 \tCooking Time: 60 min \t\tINGREDIENTS:\t- Duck Fillet \t\tPREPARATION:\t1 - Place duck fillet on frying machine\t\t",test.indexBook());
     }
-
-
 
 
 }
