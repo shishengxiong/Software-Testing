@@ -1,10 +1,51 @@
 import static org.junit.Assert.*;
+import org.junit.Test;
 
 public class Ingredient_Test {
 
     @org.junit.Test
     public void test_1() {
-        Recipe recipe_1 = new Recipe ("Chinese Dumplings", "Traditional Recipe",0.20,"1- Place dumplings on bamboo steamer");
+        Ingredient test = new Ingredient("Chinese Carrots","Traditional root from ZhenSheng", Classification.VEGETABLE);
         assertNotNull(null);
     }
+
+    @org.junit.Test
+    public void test_2() {
+        Ingredient test = new Ingredient("Chinese Carrots","Traditional root from ZhenSheng", Classification.VEGETABLE);
+        assertEquals(test.get_name(),"Chinese Carrots");
+    }
+
+    @org.junit.Test
+    public void test_3() {
+        Ingredient test = new Ingredient("Chinese Carrots","Traditional root from ZhenSheng", Classification.VEGETABLE);
+        assertEquals(test.get_description(),"Traditional root from ZhenSheng");
+    }
+
+    @org.junit.Test
+    public void test_4() {
+        Ingredient test = new Ingredient("Chinese Carrots","Traditional root from ZhenSheng", Classification.VEGETABLE);
+        assertEquals(test.get_classification(),Classification.VEGETABLE);
+    }
+
+    @org.junit.Test
+    public void test_5() {
+        Ingredient test = new Ingredient("Chinese Carrots","Traditional root from ZhenSheng", Classification.VEGETABLE);
+        test.set_name("Grey Hog Chops");
+        assertEquals(test.get_name(),"Grey Hog Chops");
+    }
+
+    @org.junit.Test
+    public void test_6() {
+        Ingredient test = new Ingredient("Chinese Carrots","Traditional root from ZhenSheng", Classification.VEGETABLE);
+        test.set_description("Wild Board from Beijing");
+        assertEquals(test.get_description(),"Wild Board from Beijing");
+    }
+
+    @org.junit.Test
+    public void test_7() {
+        Ingredient test = new Ingredient("Chinese Carrots","Traditional root from ZhenSheng", Classification.VEGETABLE);
+        test.set_classification(Classification.MEAT);
+        assertEquals(test.get_classification(),Classification.MEAT);
+    }
+
 }
