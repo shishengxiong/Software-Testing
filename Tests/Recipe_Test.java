@@ -16,7 +16,7 @@ public class Recipe_Test extends TestCase {
     @org.junit.Test
     public void test_1() {
         Recipe test = new Recipe ("Chinese Dumplings", "Traditional Recipe",0.20,"1- Place dumplings on bamboo steamer");
-        assertNotNull(null);
+        assertNotNull(test);
     }
 
     @org.junit.Test
@@ -34,7 +34,7 @@ public class Recipe_Test extends TestCase {
     @org.junit.Test
     public void test_4() {
         Recipe test = new Recipe ("Chinese Dumplings", "Traditional Recipe",0.20,"1- Place dumplings on bamboo steamer");
-        assertEquals(java.util.Optional.ofNullable(test.get_time()),0.20);
+        assertEquals(test.get_time(),0.20);
     }
 
     @org.junit.Test
@@ -67,7 +67,7 @@ public class Recipe_Test extends TestCase {
 
         test.set_time(0.45);
 
-        assertEquals(java.util.Optional.ofNullable(test.get_time()),0.45);
+        assertEquals(test.get_time(),0.45);
     }
 
     @org.junit.Test

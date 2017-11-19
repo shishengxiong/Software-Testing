@@ -8,43 +8,47 @@ public class Recipe {
 
     ArrayList <Ingredient> ingredients = new ArrayList();
 
-    public Recipe(String title, String description, Double time, String instructions){
+    public Recipe(String new_title, String new_description, Double new_time, String new_instructions){
+        this.title = new_title;
+        this.description = new_description;
+        this.time = new_time;
+        this.instructions = new_instructions;
     }
 
     public void set_title (String new_title){
-
+        this.title = new_title;
     }
 
     public String get_title (){
-        return "";
+        return title;
     }
 
     public void set_description (String new_description){
-
+        this.description = new_description;
     }
 
     public String get_description (){
-        return "";
+        return description;
     }
 
     public void set_time (Double new_time){
-
+        this.time = new_time;
     }
 
     public Double get_time (){
-        return 0.0;
+        return time;
     }
 
     public void set_instructions (String new_instructions){
+        this.instructions = new_instructions;
 
     }
 
     public String get_instructions (){
-        return "";
+        return instructions;
     }
 
     public void add_ingredient (Ingredient new_ingredient) {
-
     }
 
     public void remove_ingredient (String ingredient_name) {
