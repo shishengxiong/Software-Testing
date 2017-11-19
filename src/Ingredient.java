@@ -32,4 +32,8 @@ public class Ingredient {
     public void set_classification (Classification new_classification){
         this.classification = new_classification;
     }
+
+    public String print_full(){
+        return "";
+    }
 }

@@ -58,4 +58,10 @@ public class Ingredient_Test extends TestCase {
         assertEquals(test.get_classification(),Classification.MEAT);
     }
 
+    @org.junit.Test
+    public void test_8() {
+        Ingredient test = new Ingredient("Chinese Carrots","Traditional root from ZhenSheng", Classification.VEGETABLE);
+        assertEquals(test.print_full(),"Chinese Carrots: Traditional root from ZhenSheng");
+    }
+
 }

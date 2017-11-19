@@ -49,13 +49,21 @@ public class Recipe {
     }
 
     public void add_ingredient (Ingredient new_ingredient) {
+        ingredients.add(new_ingredient);
     }
 
     public void remove_ingredient (String ingredient_name) {
-
+        for (int i = 0; i < ingredients.size(); i++){
+            if (ingredients.get(i).get_name().equals(ingredient_name)){
+                ingredients.remove(i);
+            }
+        }
     }
 
     public String print_ingredients (){
+        for (int i = 0; i < ingredients.size(); i++){
+            ingredients.get(i).get_name();
+        }
         return "";
     }
 
